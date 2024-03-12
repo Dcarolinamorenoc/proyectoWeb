@@ -345,6 +345,7 @@ body{
 } 
  
 .foodbox1 p{ 
+    margin-top: 5px; 
     font-size: 30px; 
     color: var(--color-negro); 
 } 
@@ -384,6 +385,7 @@ body{
 } 
  
 .foodbox2 p{ 
+    margin-top: 5px; 
     font-size: 30px; 
     color: var(--color-negro); 
 } 
@@ -423,6 +425,7 @@ body{
 } 
  
 .foodbox3 p{ 
+    margin-top: 5px; 
     font-size: 30px; 
     color: var(--color-negro); 
 } 
@@ -433,6 +436,8 @@ body{
     color: var(--color-naranja); 
 }
 
+
+/* ________________________________________________________ */
 
 
 /* ________________________________________________________ */
@@ -636,6 +641,54 @@ body{
         margin-left: 10%;
     }
 
+    .menu{
+        display: flex;
+        height: 1340px;
+        flex-direction: column;
+        border: 1px solid blue;
+    }
 
+    .food{
+        display: flex;
+        flex-direction: column;
+        width: 80%; 
+    }
+
+    .foood p {
+        font-size: 20px; /* Reducir el tamaño del texto en pantallas más pequeñas */
+    }
+    
+    .foood h1 {
+        text-align: center;
+        font-size: 280%; /* Reducir el tamaño del título en pantallas más pequeñas */
+    }
+
+    .foodcita{
+        display: flex;
+        flex-direction: column;
+        margin-top: 320px;
+    }
+
+    .foodbox1, .foodbox2, .foodbox3 {
+        width: 80%; /* Cambiado a un ancho del 100% para adaptarse a pantallas muy pequeñas */
+        padding: 20px; /* Reducir el espacio interno para que quepa en pantallas más pequeñas */
+    }
+
+    .foodbox1 img, .foodbox2 img, .foodbox3 img {
+        width: 200px; /* Reducir el tamaño de la imagen para adaptarse a pantallas más pequeñas */
+        height: 200px;
+    }
+
+    .foodbox1 h1, .foodbox2 h1, .foodbox3 h1 {
+        font-size: 25px; /* Reducir el tamaño del texto para adaptarse a pantallas más pequeñas */
+    }
+
+    .foodbox1 p, .foodbox2 p, .foodbox3 p {
+        font-size: 20px; /* Reducir el tamaño del texto para adaptarse a pantallas más pequeñas */
+    }
+
+    .foodbox1 a, .foodbox2 a, .foodbox3 a {
+        font-size: 20px; /* Reducir el tamaño del texto para adaptarse a pantallas más pequeñas */
+    }
     
 }
