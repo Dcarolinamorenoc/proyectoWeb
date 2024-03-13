@@ -609,7 +609,7 @@ body{
     flex-direction: column; 
     background: var(--color-beige); 
     width: 85%; 
-    height: 60%; 
+    height: 55%; 
     justify-content: center; 
     align-items: center; 
 } 
@@ -767,43 +767,43 @@ body{
 
     .about {
         width: 100%; 
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
-        height: auto; /* Permite que la altura se ajuste según el contenido */
-        padding: 20px; /* Agrega un espacio entre el contenido y el borde del contenedor */
-        text-align: center; /* Centra el texto */
+        flex-direction: column; 
+        height: auto; 
+        padding: 20px; 
+        text-align: center; 
     }
 
     .about h1 {
-        font-size: 20px; /* Ajusta el tamaño de la fuente */
-        margin-bottom: -5px; /* Agrega un espacio inferior al título */
+        font-size: 20px;
+        margin-bottom: -5px; 
     }
 
     .speak {
         width: 90%; 
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
-        height: auto; /* Permite que la altura se ajuste según el contenido */
+        flex-direction: column;
+        height: auto; 
         margin: 20px;
-        padding: 10px; /* Agrega un espacio entre el contenido y el borde del contenedor */
-        text-align: center; /* Centra el texto */
+        padding: 10px; 
+        text-align: center; 
     }
 
     .speak h1 {
         margin-top: -20px;
-        font-size: 37px; /* Ajusta el tamaño de la fuente */
-        margin-bottom: 10px; /* Agrega un espacio inferior al título */
+        font-size: 37px; 
+        margin-bottom: 10px; 
     }
 
     .texti, .boti {
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
-        width: 100%; /* Establece el ancho automático para adaptarse al contenido */
-        margin: 15px auto; /* Centra los contenedores horizontalmente y ajusta el margen superior */
-        padding: 10px; /* Agrega un espacio entre el contenido y el borde del contenedor */
-        text-align: center; /* Centra el texto */
+        flex-direction: column; 
+        width: 100%; 
+        margin: 15px auto; 
+        padding: 10px; 
+        text-align: center;
         margin-top: -10px;
     }
 
     .texti h1 {
-        font-size: 18px; /* Ajusta el tamaño de la fuente */
+        font-size: 18px; 
     }
 
     .boti {
@@ -857,12 +857,12 @@ body{
     }
 
     .foood p {
-        font-size: 20px; /* Reducir el tamaño del texto en pantallas más pequeñas */
+        font-size: 20px; 
     }
     
     .foood h1 {
         text-align: center;
-        font-size: 280%; /* Reducir el tamaño del título en pantallas más pequeñas */
+        font-size: 280%; 
     }
 
     .foodcita{
@@ -872,25 +872,25 @@ body{
     }
 
     .foodbox1, .foodbox2, .foodbox3 {
-        width: 80%; /* Cambiado a un ancho del 100% para adaptarse a pantallas muy pequeñas */
-        padding: 20px; /* Reducir el espacio interno para que quepa en pantallas más pequeñas */
+        width: 80%; 
+        padding: 20px;
     }
 
     .foodbox1 img, .foodbox2 img, .foodbox3 img {
-        width: 200px; /* Reducir el tamaño de la imagen para adaptarse a pantallas más pequeñas */
+        width: 200px; 
         height: 200px;
     }
 
     .foodbox1 h1, .foodbox2 h1, .foodbox3 h1 {
-        font-size: 25px; /* Reducir el tamaño del texto para adaptarse a pantallas más pequeñas */
+        font-size: 25px; 
     }
 
     .foodbox1 p, .foodbox2 p, .foodbox3 p {
-        font-size: 20px; /* Reducir el tamaño del texto para adaptarse a pantallas más pequeñas */
+        font-size: 20px; 
     }
 
     .foodbox1 a, .foodbox2 a, .foodbox3 a {
-        font-size: 20px; /* Reducir el tamaño del texto para adaptarse a pantallas más pequeñas */
+        font-size: 20px; 
     }
     
 
@@ -908,12 +908,12 @@ body{
     }
 
     .servi p {
-        font-size: 30px; /* Reducir el tamaño del texto en pantallas más pequeñas */
+        font-size: 30px; 
     }
     
     .servi h1 {
         text-align: center;
-        font-size: 250%; /* Reducir el tamaño del título en pantallas más pequeñas */
+        font-size: 250%; 
     }
 
     .servicios{
@@ -921,4 +921,25 @@ body{
         flex-direction: column;
         margin-top: 380px;
     }
+
+    .every{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        border: 1px solid orangered;
+    }
+    
+    .day{
+        width: 80%;
+        height: 200px;
+    }
+    .day h1 {
+        font-size: 25px;
+    }
+    
+    .day button {
+        font-size: 16px; 
+        margin-top: 30px; 
+    }
+
 }
