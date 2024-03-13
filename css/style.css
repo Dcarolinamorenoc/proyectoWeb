@@ -780,6 +780,7 @@ body{
         width: 100%; 
         height: 780px;
         border: 1px solid red;
+        
     }
 
     .caja6 {
@@ -798,6 +799,7 @@ body{
     .menu{
         display: flex;
         height: 1340px;
+        align-items: center;
         flex-direction: column;
         border: 1px solid blue;
     }
@@ -845,4 +847,32 @@ body{
         font-size: 20px; /* Reducir el tamaño del texto para adaptarse a pantallas más pequeñas */
     }
     
+
+    .service{
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid blueviolet;
+    }
+    .servi{
+        display: flex;
+        flex-direction: column;
+        width: 80%; 
+    }
+
+    .servi p {
+        font-size: 30px; /* Reducir el tamaño del texto en pantallas más pequeñas */
+    }
+    
+    .servi h1 {
+        text-align: center;
+        font-size: 250%; /* Reducir el tamaño del título en pantallas más pequeñas */
+    }
+
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        margin-top: 380px;
+    }
 }
