@@ -880,28 +880,25 @@ body{
         text-decoration: none;
     }
     
-
-    .about {
+    .caja7{
         display: flex;
         flex-direction: colum;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 80px;
+        margin-top: -820px;
     }
 
 
     .about {
-        width: 100%; 
+        width: 95%; 
         flex-direction: column; 
+        margin: 3px;
         height: auto; 
         padding: 20px; 
-        text-align: center; 
+        margin-top: 150px;
     }
 
     .about h1 {
         font-size: 20px;
-        margin-bottom: -5px; 
+        margin-bottom: -5px;
     }
 
     .speak {
@@ -950,9 +947,7 @@ body{
         display: flex;
         flex-direction: column;
         width: 100%; 
-        height: 780px;
-        border: 1px solid red;
-        
+        height: 800px;
     }
 
     .caja6 {
@@ -960,21 +955,35 @@ body{
         flex-direction: column;
         width: 80%; 
         height: 42%;
-        position: absolute;
     }
 
+    
     .caja6{
-        margin-top: 410px;
+        margin-top: 400px;
         margin-left: 10%;
+    }
+    
+    .caro .caja6 img {
+        width: 110%; 
+        height: 90%; 
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+
+    .caro{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
     }
 
     .menu{
         display: flex;
-        height: 1340px;
+        height: 1400px;
         align-items: center;
         flex-direction: column;
-        border: 1px solid blue;
     }
+
 
     .food{
         display: flex;
@@ -1025,7 +1034,6 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 1px solid blueviolet;
     }
     .servi{
         display: flex;
@@ -1052,7 +1060,6 @@ body{
         display: flex;
         flex-direction: column;
         height: 400px;
-        border: 1px solid orangered;
     }
     
     .day{
@@ -1066,6 +1073,26 @@ body{
     .day button {
         font-size: 16px; 
         margin-top: 30px; 
+    }
+
+    .final {
+        flex-direction: column; 
+        gap: 30px; 
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 70px;
+    }
+    
+    .contactbox1,
+    .contactbox2,
+    .contactbox3,
+    .contactbox4 {
+        height: 10000px; 
+    }
+    
+    .contactimg img {
+        margin-right: 0; 
+        margin-bottom: 10px; 
     }
 
 }
