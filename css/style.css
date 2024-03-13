@@ -42,10 +42,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
     gap: 20px;
     font-family: sans-serif;
     font-size: 15px;
+}
+
+.caja1 h1{
+    font-weight: bold;
 }
 
 .caja2 {
@@ -62,6 +65,10 @@ body{
     font-weight: normal;
     text-decoration: none;
     list-style: none;
+}
+
+.caja2 a {
+    font-weight: bold;
 }
 
 .caja2 a:hover{
@@ -128,9 +135,9 @@ body{
     margin-left: 80px;
     margin-top: 110px;
     color: var(--color-naranja);
-    font-size: 100px;
+    font-size: 95px;
     font-family: sans-serif;
-    font-weight: normal;
+    font-weight: bolder;
 
 }
 
@@ -145,6 +152,7 @@ body{
     margin-top: 15px;
     color: var(--color-blanco);
     font-weight: normal;
+    font-size: 40px;
 }
 
 .caja5 {
@@ -252,7 +260,7 @@ body{
 .speak h1{
     color: var(--color-blanco);
     font-size: 60px;
-    font-weight: normal;
+    font-weight: bolder;
 }
 
 .texti{
@@ -318,7 +326,7 @@ body{
     font-size: 60px; 
     width: 100%; 
     justify-content: center; 
-    font-weight: normal; 
+    font-weight: bolder; 
     margin-top: 20px; 
 } 
  
@@ -515,7 +523,7 @@ body{
     font-size: 60px; 
     width: 100%; 
     justify-content: center; 
-    font-weight: normal; 
+    font-weight: bolder; 
     margin-top: 20px; 
 } 
  
@@ -656,7 +664,7 @@ body{
 } 
  
 .day h1{ 
-    font-weight: normal; 
+    font-weight: bolder; 
     font-size: 60px; 
     margin-top: 10px;
 } 
@@ -728,7 +736,7 @@ body{
  
 .contactbox2 h1{ 
     color: var(--color-blanco); 
-    font-weight: normal;  
+    font-weight: bolder;  
 } 
  
 .contactbox2 h2{ 
@@ -756,7 +764,7 @@ body{
  
 .contactbox3 h1{ 
     color: var(--color-blanco); 
-    font-weight: normal;  
+    font-weight: bolder;  
 } 
  
 .contactbox3 h2{ 
@@ -783,7 +791,7 @@ body{
  
 .contactbox4 h1{ 
     color: var(--color-blanco); 
-    font-weight: normal;  
+    font-weight: bolder;  
 } 
  
 .contactbox4 h2{ 
@@ -979,7 +987,7 @@ body{
 
     .boton a {
         color: var(--color-blanco); 
-        font-size: 13px;
+        font-size: 15px;
         text-decoration: none;
     }
     
@@ -1041,7 +1049,7 @@ body{
 
     .boti a {
         color: var(--color-blanco); 
-        font-size: 13px;
+        font-size: 15px;
         text-decoration: none;
     }
 
@@ -1068,7 +1076,7 @@ body{
     
     .caro .caja6 img {
         width: 110%; 
-        height: 90%; 
+        height: 100%; 
         margin-top: 25px;
         margin-left: -30px;
     }
@@ -1208,11 +1216,16 @@ body{
         height: 10000px; 
     }
 
-    .contactbox4{
+    .contactbox4 {
         align-items: center;
         flex-direction: column;
         margin-top: 50px;
         width: 90%;
+    }
+
+    .contactbox4 h2{
+        align-items: start;
+        margin-right: 90px;
     }
     
     .contactimg{
