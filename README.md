@@ -2,6 +2,6 @@ Videos de Prueba
 
 Video Computador:
 
-[![](https://markdown-videos.deta.dev/youtube/y26UaCD_fBc)](https://youtu.be/y26UaCD_fBc)
+[![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)](https://www.youtube.com/watch?v=y26UaCD_fBc)
 
 Video Celular:
