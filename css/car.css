@@ -56,6 +56,18 @@
     height: 50px;
 }
 
+.board h1 {
+    color: black;
+}
+
+.dash h1 {
+    color: black;
+}
+
+.todo h1{
+    color: black;
+}
+
 .url{
     display: flex;
     text-decoration: none;

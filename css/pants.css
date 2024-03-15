@@ -45,6 +45,18 @@
     font-family: DM Serif Display;
 }
 
+.board h1 {
+    color: black;
+}
+
+.dash h1 {
+    color: black;
+}
+
+.todo h1{
+    color: black;
+}
+
 .dash{
     display: flex;
     flex-direction: row;

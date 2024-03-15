@@ -301,6 +301,18 @@
     color: var(--color-hover);
 }
 
+.board h1 {
+    color: black;
+}
+
+.dash h1 {
+    color: black;
+}
+
+.todo h1{
+    color: black;
+}
+
 /* ---------------------------------------------------- */
 
 .carcito{

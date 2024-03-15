@@ -30,8 +30,15 @@
     background: var(--color-opacity);
 }
 
-.foto{
+.board h1 {
+    color: black;
+}
 
+.dash h1 {
+    color: black;
+}
+
+.foto{
     margin: 10px;
     height: 50px
 }
