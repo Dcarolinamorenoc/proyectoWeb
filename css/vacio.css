@@ -344,6 +344,29 @@
     overflow-x: hidden;
 }
 
+.left{
+    width: 400px;
+    height: 100vh;
+    background: var(--color-opacity);
+}
+ 
+
+.derecha{
+    background: var(--color-opacity);
+    height: 100vh;
+    width: 1200px;
+}
+
+.vis{
+    margin-top: 45px;
+    border: 5px solid var(--color-borde);
+    background-color: var(--color-azul);
+    flex-direction: row;
+    width: 1080px;
+    height: 90vh;
+    border-radius: 25px;
+}
+
 /* ---------------------------------------------------- */
 
 @media (width < 1200px){
