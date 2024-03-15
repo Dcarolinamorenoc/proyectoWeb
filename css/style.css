@@ -304,8 +304,10 @@
 @media (width < 1200px){
     .container {
         display: flex;
+        height: 190vh;
         width: 100%;
         flex-direction: column;
+        background: var(--color-opacity);
     }
 
     .prin {
