@@ -294,3 +294,7 @@
      height: 735px;
      width: 1200px;
 }
+
+.letras h1{
+    color: var(--color-hover);
+}
