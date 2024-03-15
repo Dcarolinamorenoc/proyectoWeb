@@ -294,6 +294,7 @@
      background: var(--color-opacity);
      height: 735px;
      width: 1200px;
+    
 }
 
 .letras h1{
@@ -321,4 +322,143 @@
     margin-left: 20px;
 }
 
+.ola{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px;
+    height: 85vh;
+    width: 99%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 /* ---------------------------------------------------- */
+
+@media (width < 1200px){
+    .container {
+        display: flex;
+        height: 190vh;
+        width: 100%;
+        flex-direction: column;
+        background: var(--color-opacity);
+    }
+
+    .prin {
+        width: 100%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .dash {
+        width: 100%; 
+    }
+
+    .board {
+        font-size: 8px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .board h1{
+        text-align: center;
+    }
+
+    .todo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .derecha{
+        display:flex;
+        width: 100%;
+    }
+
+    .vis {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto; 
+    }
+
+    .car{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .letras {
+        display:flex;
+        width: 100%; 
+        margin: 20px auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery {
+        display:flex;
+        max-width: 100%;
+        margin: 2% auto; 
+    }
+
+    .arriba,
+    .abajo,
+    .abajito,
+    .ultimo {
+        display:flex;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .abajo{
+        margin-top: -5px;
+    }
+
+    .imagene,
+    .imagenes {
+        max-width: 100%;
+        display:flex;
+        margin: 20px auto; 
+    }
+
+    .copy{
+        display: flex;
+        width: 100%; 
+    }
+    .camper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center 
+    }
+
+    .camper h1 {
+        margin-top: 0; 
+    }
+
+    .left h1{
+        color: black;
+    }
+
+    .carcito {
+        width: 100%; 
+        margin-left: 0; 
+        justify-content: center; 
+    }
+    
+    .carcito h1 {
+        font-size: 16px; 
+    }
+    
+    .nada {
+        margin-left: 10px;
+    }
+}
