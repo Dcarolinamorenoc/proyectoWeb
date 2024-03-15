@@ -386,6 +386,12 @@
         align-items: center; 
     }
 
+    .abajo,
+    .abajito,
+    .ultimo{
+        margin-top: -5px;
+    }
+
     .imagene,
     .imagenes {
         max-width: 100%;

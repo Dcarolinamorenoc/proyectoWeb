@@ -386,6 +386,10 @@
         align-items: center; 
     }
 
+    .abajo{
+        margin-top: -5px;
+    }
+
     .imagene,
     .imagenes {
         max-width: 100%;
